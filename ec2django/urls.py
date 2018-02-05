@@ -21,5 +21,5 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
    url(r'^admin/', admin.site.urls),
-   url(r'^', include('helloworld.urls')),
+   url(r'^', include('contabilidad.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
